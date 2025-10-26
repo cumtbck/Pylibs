@@ -2,7 +2,8 @@
 Self-Learning records of useful libs during my CV research 
 
 Tensorflow 已💀，Pytorch才是正统，其他框架之后再学
-2025.10
+
+## 2025.10
 
 目前主要接触比较多的是图像分类任务，经典的Pipeline为先读取图像转为PIL-Image对象/NumPy数组，再转为Tensor，打包为Dataset（结合不同的augmentation），再用DataLoader包一层（结合不同的sampler），接下来作为model的input，计算loss，反传grad，最后评估，必要时保存模型参数。
 
